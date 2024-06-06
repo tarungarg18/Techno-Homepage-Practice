@@ -1,0 +1,105 @@
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    column-gap: 0px;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    color: purple;
+    flex-shrink: 0;
+}
+@media(min-width:1000px){
+    .technologo{
+        width: 110px;
+        cursor: pointer;
+    }
+    .technologo-container{
+        margin-left: 50px;
+        margin-right: 40px;
+        width: 180px;
+    }
+    .header-buttons{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        padding-right: 60px;
+        align-items: center;
+    }
+    .header-buttons div{
+        cursor: pointer;
+    }
+    .home-link{
+        text-decoration: none;
+    }
+    .home-link:active{
+        color: purple;
+    }
+}
+
+
+@media(max-width:1000px) and (min-width:800px){
+    .technologo{
+        width: 110px;
+        cursor: pointer;
+    }
+    .technologo-container{
+        margin-left: 50px;
+        margin-right: 40px;
+        width: 180px;
+    }
+    .header-buttons{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        padding-right: 60px;
+        align-items: center;
+    }
+    .header-buttons div{
+        cursor: pointer;
+    }
+    .home-link{
+        text-decoration: none;
+    }
+    .home-link:active{
+        color: purple;
+    }
+}
+@media(max-width:800px){
+    .technologo{
+        width: 110px;
+        cursor: pointer;
+    }
+    .technologo-container{
+        margin-left: 0px;
+        margin-right: 10px;
+        flex: 1;
+    }
+    .header-buttons{
+        display: flex;
+        flex-direction: row;
+        flex: 5;
+        justify-content: space-between;
+        padding-right: 20px;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .header-buttons div{
+        cursor: pointer;
+    }
+    .home-link{
+        text-decoration: none;
+    }
+    .home-link:active{
+        color: purple;
+    }
+}
